@@ -1,0 +1,277 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background-image: url(blomst2.jpg);
+}
+
+
+
+/*Hovedmenu*/  
+
+
+section {
+    margin-bottom: 60px;
+}
+
+.simple {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+.simple a {
+    text-decoration: none;
+    color: skyblue;
+    font-size: 1.4em;
+}
+
+
+.simple  nav a:hover {
+    color: lightblue;
+}
+
+.simple nav {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+}
+
+.simple {
+    border-bottom: 2px solid lightgrey;
+
+}
+
+.logo {
+    font-size: 1.8em;
+}
+    
+
+
+
+
+
+
+/*underside baggrund*/
+
+.undermenu {
+    display: flex;
+    
+}
+
+
+
+
+    
+/*cards portfolio underside*/
+    
+.image-links {
+    display: flex;
+    justify-content: center;
+}
+
+.image-links img {
+    width: 320px;
+  
+    
+}
+
+.infoboks {
+    position: relative;
+    display: flex;
+    margin: 10px;
+ 
+   
+}
+
+.infotekst {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 100%;
+    background-color: rgba(00, 00, 00, 0.5); 
+    color: white;
+    font-size: 1.2em;
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    
+   
+}
+
+
+.infoboks:hover .infotekst {
+    visibility: visible;
+    opacity: 1;
+}
+
+.beskrivelse {
+    color: skyblue;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+.tekstonboks {
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+.style {
+    display: flex;
+    align-items: center;
+    width: auto;
+    max-width: 400px;
+    color: skyblue;
+}
+
+.boks {
+    display: flex;
+    justify-content: center;
+}
+
+
+.skildpadde {
+
+    max-width: 800px;
+
+
+    
+}
+
+.tekst {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.tekstbillede {
+    color: skyblue;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+.farve {
+    color: #909090;
+    
+}
+
+
+
+/*underside baggrund*/
+
+.bymose {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.underside {
+    display: block;
+    position: absolute;
+    margin-top: 400px;
+    font-family: helvetica, arial, sans-serif;
+   
+   
+}
+
+.underside a {
+    text-decoration: none;
+    color: skyblue;
+    font-size: 1.5em;
+    padding: 20px;
+    
+    
+}
+
+.underside a:hover {
+    color: lightblue;
+}
+
+
+.undersidetekst1, .undersidetekst2 {
+
+    font-size: 1em;
+    width: 400px;
+    padding: 10px;
+    font-family: halvetica, arial, sans-serif;
+    line-height: 1.8;
+    color: #909090;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*underside kontakt*/
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+.stort {
+    font-size: 1.5em;
+}
+
+.grid-item {
+    background: lightblue;
+    font-family: helvetica, arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    grid-gap: 1.5em;
+    line-height: 1.6;
+}
+
+
+
+.p {
+    grid-gap: 1.5em;
+}
+
+
+.footer {
+    position: fixed;
+    left:0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.copyright {
+    width: 12px;
+    padding-left: 10px;
+}
+    
+    
+    
+
+
+
+
